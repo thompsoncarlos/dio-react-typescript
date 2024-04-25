@@ -1,3 +1,10 @@
 .header {
-    background-color: orange;
+    margin: 5px; 
+    background-color: #FFF;
+}
+
+.header .title {
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
 }

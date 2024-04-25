@@ -1,12 +1,12 @@
-import { Footer } from "./Footer"
+import { Footer } from "./Footer/Footer"
 import { Header } from "./Header/Header"
 
 export const Layout = ({ children }: any) => {
     return (
         <>
-            <Header />
+            <Header title="Dio Bank" />
             { children }
-            <Footer />
+            <Footer description="Developed by Carlos Thompson"/>
         </>
     )
 }

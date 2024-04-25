@@ -1,9 +1,11 @@
 import './Header.css';
 
-export const Header = () => {
+export const Header = ({ title }: any) => {
     return (
         <div className='header'>
-            Dio Bank
+            <div className='title'>
+                {title}
+            </div>
         </div>
     )
 }
